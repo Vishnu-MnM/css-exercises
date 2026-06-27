@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+p {
+    color: black;
+    background-color: lightpink;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+p:nth-child(3){
+    font-size: 24px;
+}
+div:nth-child(2){
+    color: blue;
+    font-size: 36px;
+}
+div:nth-child(4){
+    color: black;
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
